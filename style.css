@@ -3,10 +3,10 @@ html
     font-family: Verdana, sans-serif;
     font-weight: bold;
 
-    color:rgb(235, 105, 13);
+    color:rgb(243, 116, 26);
 
     /* source:https://kinsta.com/blog/css-text-outline/ */
-    -webkit-text-stroke-color: brown;
+    -webkit-text-stroke-color: rgb(145, 39, 39);
 }
 
 body
@@ -17,34 +17,13 @@ body
     background-size: cover;
 }
 
-h1
-{
-    text-align: center;
-    font-size: 56px;
-
-    /* source:https://kinsta.com/blog/css-text-outline/ */
-    -webkit-text-stroke-width: 3px;
-
-    background:peachpuff;
-    border-color:rgb(77, 50, 45);
-
-    border-style: solid;
-    border-width: 6px;
-    border-radius: 10px;
-
-    width: auto-fit;
-
-    margin-left: 35%;
-    margin-right: 35%;
-}
-
 div
 {
     /* source:https://kinsta.com/blog/css-text-outline/ */
     -webkit-text-stroke-width: 1px;
 
-    background:peachpuff;
-    border-color:rgb(77, 50, 45);
+    background:rgb(243, 223, 200);
+    border-color:rgb(59, 40, 37);
 
     border-style: solid;
     border-width: 6px;
@@ -56,5 +35,45 @@ div
     margin-right: 10%;
     margin-top: 1%;
 
-    padding-left: 1%
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 56px;
+
+    /* source:https://kinsta.com/blog/css-text-outline/ */
+    -webkit-text-stroke-width: 3px;
+
+    background:rgb(243, 223, 200);
+    border-color:rgb(59, 40, 37);
+
+    border-style: solid;
+    border-width: 6px;
+    border-radius: 10px;
+
+    width: auto-fit;
+
+    margin-left: 35%;
+    margin-right: 35%;
+
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+h2
+{
+    font-size: 38px;
+}
+
+h3
+{
+    font-size: 32px;
+}
+
+p
+{
+    font-size: 24px;
 }

@@ -1,34 +1,27 @@
-async function getData(){ //returns data from the website
+async function getData()  //returns data from the website
+{
     try{
+        //Post Information
         const response = await fetch('https://jsonplaceholder.typicode.com/users/1/posts')
         let data = await response.json();
-        // let txt = await response.text();
-        // let obj = await JSON.parse(txt);
-
-        console.log(data);
+        console.log(data);  
         createPost(data);
     }catch(error){
         console.log(error);
     }
 }
 
-function createPost(obj){
+function createPost(obj)  //returns data from the website
+{ 
     let users = obj;
-    let x = 1;
-    for(const account of users){
-        const id = document.createElement("h2");
-        const title = document.createElement("h3");
-        const body = document.createElement("p");
-
-        id.textContent = account.id;
-        title.textContent = account.title;
-        body.textContent = account.body;
-
-        document.getElementById("Post" + x).appendChild(id);
-        document.getElementById("Post" + x).appendChild(title);
-        document.getElementById("Post" + x).appendChild(body);
-        x++;
-    }
+    const posts = users.map(account =>{
+        return `<div>
+        <h2>${account.id}</h2>
+        <h3>${account.title}</h3>
+        <p>${account.body}</p>
+        </div>`;
+    })
+    document.getElementById("Post Board").innerHTML = posts;
 }
 
 getData();
