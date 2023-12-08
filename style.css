@@ -6,7 +6,7 @@ html
     color:rgb(248, 56, 120);
 
     /* source:https://kinsta.com/blog/css-text-outline/ */
-    -webkit-text-stroke-color: rgb(255, 255, 255);
+    -webkit-text-stroke-color: rgb(117, 21, 66);
 }
 
 body
@@ -20,7 +20,7 @@ body
 div
 {
     /* source:https://kinsta.com/blog/css-text-outline/ */
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: 2px;
 
     background:rgb(243, 223, 200);
     border-color:rgb(59, 40, 37);
@@ -72,12 +72,14 @@ h2
 {
     font-size: 42px;
     color:rgb(59, 124, 177);
+    -webkit-text-stroke-color: rgb(19, 4, 56);
 }
 
 h3
 {
     font-size: 36px;
     color:rgb(59, 124, 177);
+    -webkit-text-stroke-color: rgb(19, 4, 56);
 }
 
 p

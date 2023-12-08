@@ -17,7 +17,7 @@ function createPost(obj)  //returns data from the website
 
     const posts = users.map(account =>{
         return `<div>
-        <h2>${account.id}</h2>
+        <h2>#${account.id}</h2>
         <h3>${account.title}</h3>
         <p>${account.body}</p>
         </div>`;
