@@ -2,7 +2,7 @@ async function getData()  //returns data from the website
 {
     try{
         //Post Information
-        const response = await fetch('https://jsonplaceholder.typicode.com/users/1/posts')
+        const response = await fetch('https://jsonplaceholder.typicode.com/users/1/posts');
         let data = await response.json();
         console.log(data);  
         createPost(data);
@@ -14,6 +14,7 @@ async function getData()  //returns data from the website
 function createPost(obj)  //returns data from the website
 { 
     let users = obj;
+
     const posts = users.map(account =>{
         return `<div>
         <h2>${account.id}</h2>

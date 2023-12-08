@@ -3,10 +3,10 @@ html
     font-family: Verdana, sans-serif;
     font-weight: bold;
 
-    color:rgb(243, 116, 26);
+    color:rgb(248, 56, 120);
 
     /* source:https://kinsta.com/blog/css-text-outline/ */
-    -webkit-text-stroke-color: rgb(145, 39, 39);
+    -webkit-text-stroke-color: rgb(255, 255, 255);
 }
 
 body
@@ -25,6 +25,8 @@ div
     background:rgb(243, 223, 200);
     border-color:rgb(59, 40, 37);
 
+    background-image: url("image/wood.jpg");
+
     border-style: solid;
     border-width: 6px;
     border-radius: 10px;
@@ -36,6 +38,7 @@ div
     margin-top: 1%;
 
     padding-left: 1%;
+    padding-right: 1%;
     padding-bottom: 1%;
 }
 
@@ -49,6 +52,8 @@ h1
 
     background:rgb(243, 223, 200);
     border-color:rgb(59, 40, 37);
+
+       background-image: url("image/wood.jpg");
 
     border-style: solid;
     border-width: 6px;
@@ -65,15 +70,17 @@ h1
 
 h2
 {
-    font-size: 38px;
+    font-size: 42px;
+    color:rgb(59, 124, 177);
 }
 
 h3
 {
-    font-size: 32px;
+    font-size: 36px;
+    color:rgb(59, 124, 177);
 }
 
 p
 {
-    font-size: 24px;
+    font-size: 32px;
 }
