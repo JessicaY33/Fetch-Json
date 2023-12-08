@@ -72,6 +72,8 @@ h2
 {
     font-size: 42px;
     color:rgb(59, 124, 177);
+
+    /* source:https://kinsta.com/blog/css-text-outline/ */
     -webkit-text-stroke-color: rgb(19, 4, 56);
 }
 
@@ -79,6 +81,8 @@ h3
 {
     font-size: 36px;
     color:rgb(59, 124, 177);
+
+    /* source:https://kinsta.com/blog/css-text-outline/ */
     -webkit-text-stroke-color: rgb(19, 4, 56);
 }
 
